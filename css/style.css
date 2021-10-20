@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
 
 :root{
-    --main-color:#d3ad7f;
+    --main-color:#ffc0cb;
     --black:#13131a;
-    --bg:#010103;
+    --bg:#fff;
     --border:.1rem solid rgba(255,255,255,.3);
 }
 
@@ -95,8 +95,8 @@ section{
 }
 
 .header .navbar a:hover{
-    color:pink;
-    border-bottom: .1rem solid pink;
+    color: var(--main-color) ;
+    border-bottom: .1rem solid var(--main-color);
     padding-bottom: .5rem;
 }
 
