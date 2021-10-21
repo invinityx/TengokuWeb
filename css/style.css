@@ -70,6 +70,7 @@ section{
 
 .btn:hover{
     letter-spacing: .2rem;
+    background: #fff;
 }
 
 .header{
